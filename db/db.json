@@ -1,0 +1,65 @@
+{
+    "response_code": 0,
+    "results": [
+    {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The &quot;Gympie Stinger&quot; is the deadliest plant in the world.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+    "True"
+    ]
+    },
+    {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "The planet Mars has two moons orbiting it.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+    "False"
+    ]
+    },
+    {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Like with the Neanderthals, Homo sapiens sapiens also interbred with the Denisovans.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+    "False"
+    ]
+    },
+    {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Shrimp can swim backwards.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+    "False"
+    ]
+    },
+    {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Type 1 diabetes is a result of the liver working improperly.",
+    "correct_answer": "False",
+    "incorrect_answers": [
+    "True"
+    ]
+    },
+    {
+    "category": "Science & Nature",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "In the periodic table, Potassium&#039;s symbol is the letter K.",
+    "correct_answer": "True",
+    "incorrect_answers": [
+    "False"
+    ]
+    }
+    ]
+    }
