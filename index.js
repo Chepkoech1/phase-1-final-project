@@ -1,17 +1,15 @@
-const loginForm = document.getElementById("login-form");
-const loginButton = document.getElementById("login-form-submit")
-const loginErrorMessage = document.getElementById("login-error-message")
- 
+const login = document.querySelector('#main-holder')
+const btn = document.querySelector('.submit')
+const form = document.querySelector('form')
 
-const loginButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    const username = loginForm.username.value;
-    const password = loginForm.password.value;
-
-    if(username === "user" && password ==="web_dev"){
-        alert("login successful.");
-        location.reload();
-    }else{
-        loginErrorMessage.style.opacity = 1;
-    }
+form.addEventListener('submit',(e) =>{
+    e.preventDefault()
+})
+btn.addEventListener('click',(e) =>{
+    const formData = new FormData(form)
+    for (const value of formData.values()) {
+        console.log(value);
+      }
+      login.style.display = 'none'
+      document.querySelector('.content').style.display = 'block'
 })

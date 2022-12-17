@@ -1,8 +1,10 @@
-/*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 80%;
+    scroll-padding-left: ;
+    
 }
 body{
     height: 100%;
@@ -74,7 +76,17 @@ body{
     background-color: aqua;
     cursor: pointer;
     outline: none;
+}
+.container{
+    width: 80vw;
+    max-width: 80%;
+    background-color: beige;
+    height: 20vh;
 
 
 }
+.content{
+    display: none;
+    
 
+}
