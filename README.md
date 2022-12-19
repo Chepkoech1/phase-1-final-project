@@ -7,7 +7,7 @@
 ## Description
 - This website fetches data from db.json file in db folder. It then launches the website in your web browser to display the questions.
 
-##Built with
+## Built with
 - html
 - Javascript
 - CSS
