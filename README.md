@@ -12,7 +12,13 @@
 - Javascript
 - CSS
 
+
 ## Getting started
+
+- This project can be accessed using this link: 
+
+  https://phase-1-final-project-six.vercel.app/
+
 - Open command line terminal on your computer. Clone the repository by using the following:
 
  git clone https://github.com/Chepkoech1/phase-1-final-project
