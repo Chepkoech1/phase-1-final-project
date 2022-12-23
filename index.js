@@ -6,9 +6,9 @@ let number = 1;
 
 
 async function getQuestions() {
-    await fetch('https://opentdb.com/api.php?amount=6&category=17&difficulty=medium&type=boolean')
+    await fetch('https://phase-1-final-project-six.vercel.app/db/db.json')
         .then(res => res.json())
-        .then(res => {
+        .then(res => {   
             const question_text = document.querySelector('.question-text');
             console.log(res.results);
             res.results.forEach((element, index) => {
