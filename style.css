@@ -1,109 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    width: 100vw;
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    position: relative;
 }
-section{
-    width: 70%;
-    height: 100%;
-    background-color: skyblue;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-}
-#logIn{
-    z-index: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-form{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-form input, button{
-    width: 50%;
-    height: 2rem;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    padding: 0 8px;
-}
-form button{
-    background-color: rgb(46, 128, 161);
-    cursor: pointer;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-#questions div{
-    width: 100%;
 
-}
-#questions .score{
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-
-}
-#questions .score span{
-    margin: 0 10px;
-}
-#questions .question-text{
-    height: 30%;
+.quiz-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
     text-align: center;
-    display: grid;
-    place-items: center;
-    padding: 2rem;
-}
-.question-text > p{
-    display: none;
-}
-.question-text > .question_active{
-    display: block;
-}
-#questions .options{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 15%;
-}
-#questions .controls{
-    display: flex;
-    height: 40%;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-}
-#questions .controls > :first-child{
-    position: absolute;
-    top: 20%;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-#questions .controls > *{
-    cursor: pointer;
-}
-#questions .controls > :last-child{
-    position: absolute;
-    bottom: 20%;
-    left: 0;
-    right: 0;
-    margin: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-.answerActive{
-    background-color: grey;
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.answer-btn {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4e73df;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.answer-btn:hover {
+    background-color: #2e59d9;
+}
+
+#next-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #1cc88a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
 }
