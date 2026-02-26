@@ -4,7 +4,7 @@ let score = 0;
 let selectedAnswer = null;
 
 // Fetch questions from db.json
-fetch("db.json")
+fetch("./db.json")
     .then(response => response.json())
     .then(data => {
         questions = data.results;
