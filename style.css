@@ -34,21 +34,25 @@ h1 {
     color: white;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.3s ease;
 }
 
+/* Hover Effect */
 .answer-btn:hover {
     background-color: #2e59d9;
+    transform: scale(1.05);
 }
 
-#next-btn {
-    padding: 10px 20px;
-    border: none;
-    background-color: #1cc88a;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
+/* Selected Effect */
+.answer-btn.selected {
+    background-color: #f6c23e;
+    color: black;
+    transform: scale(1.1);
 }
 
-.hidden {
-    display: none;
+/* Disabled Next Button */
+#next-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
 }
+
